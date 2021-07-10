@@ -24,3 +24,5 @@ class Solution:
                 else: 
                     break
         return ''.join(result)
+first = Solution()
+print(Solution.intToRoman(125))
