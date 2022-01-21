@@ -7,3 +7,6 @@ class SolutionOne:
         return count
 SolutionOne().countGoodSubstrings("xyzzaz")
 
+
+
+
