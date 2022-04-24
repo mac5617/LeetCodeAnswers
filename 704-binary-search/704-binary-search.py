@@ -7,8 +7,8 @@ class Solution:
             point = nums[mid]
             if point == target:
                 return mid
-            elif nums[mid] < target:
+            elif point < target:
                 left = mid + 1
-            elif nums[mid] > target:
+            elif point > target:
                 right = mid - 1
         return -1
